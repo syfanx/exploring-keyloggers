@@ -1,5 +1,3 @@
-# codeblock 1.0
-
 # encoding=utf8
 import pynput.keyboard
 # import module to capture pressed keys
