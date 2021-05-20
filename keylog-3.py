@@ -24,7 +24,7 @@ def report():
     
 
     timer = threading.Timer(60, report)
-    
+    # timer will run on separate thread and will call report() module after every 60 seconds
     
     timer.start()
     # timer will start
